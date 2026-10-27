@@ -1,0 +1,6 @@
+@EndUserText.label: 'Sales Analytics Service'
+define service ZUI_SALES {
+  expose ZI_SALES        as Sales;
+  expose ZC_SALES_REGION as RegionSales;
+  expose ZC_SALES_MONTH  as MonthSales;
+}
